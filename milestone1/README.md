@@ -19,7 +19,7 @@ JWT (JSON Web Token) was used to implement secure login functionality.
 - User Signup with input validation
 - Secure Login using JWT authentication
 - Dashboard page after successful login
-- Forgot Password functionality
+- - Forgot Password functionality using Security Question validation
 - Session handling
 - Error handling for invalid credentials
 
@@ -30,7 +30,21 @@ JWT (JSON Web Token) was used to implement secure login functionality.
 - Python
 - Streamlit
 - JWT (JSON Web Token)
-- Ngrok (used only for demonstration)
+- SQLite (Database)
+- Ngrok (for demonstration)
+
+
+---
+
+## Repository Structure
+
+Infosys-Springboard-Repository/
+│
+└── milestone1/
+    ├── app.py
+    ├── README.md
+    ├── screenshots
+    └── (Colab .ipynb file)
 
 ---
 
@@ -56,20 +70,24 @@ JWT (JSON Web Token) was used to implement secure login functionality.
 ## Screenshots
 
 ### Signup Page
-<img width="1279" height="865" alt="image" src="https://github.com/user-attachments/assets/a2dd8ec5-e6f4-4465-be66-f0821631a855" />
+<img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/50f48bd1-14e3-421f-8279-5245d3e85820" />
+
 
 
 
 ### Login Page
-<img width="1132" height="722" alt="image" src="https://github.com/user-attachments/assets/5e3fca1c-eab0-4ca1-919c-62228286802d" />
+<img width="1919" height="904" alt="image" src="https://github.com/user-attachments/assets/2d227848-deff-46bc-9b35-7372f396dbdc" />
+
 
 
 
 ### Dashboard
-(Add dashboard screenshot here)
+<img width="1912" height="854" alt="image" src="https://github.com/user-attachments/assets/7fc4245f-5946-494f-b5e0-bd11a11c5f67" />
+
 
 ### Forgot Password Page
-<img width="1267" height="895" alt="image" src="https://github.com/user-attachments/assets/f9b7ffe6-bba0-4e67-91fc-f16c61526444" />
+<img width="1917" height="851" alt="image" src="https://github.com/user-attachments/assets/ff270f6f-3996-4c20-bdf3-8139cf78deac" />
+
 
 
 ---
