@@ -100,8 +100,5 @@ Infosys-Springboard-Repository/
 
 ---
 
-## Note
 
-Ngrok was used only for demonstration purposes.  
-The ngrok authentication token has been removed before uploading this repository.
 
