@@ -1,0 +1,54 @@
+# 🚀 Milestone 2 – Advanced Security & Readability Dashboard  
+
+## 📌 Project Title  
+**Infosys Springboard – Policy Navigation Using AI (Milestone 2)**  
+
+---
+
+## 📖 Description  
+
+In this milestone, the application was upgraded with stronger security features and an advanced readability analysis dashboard.
+
+The focus was on:
+- Enhancing authentication using OTP verification
+- Improving UI/UX design
+- Adding analytical capabilities
+- Ensuring all features are properly tested and working
+
+---
+
+## 🔐 Features Implemented  
+
+- OTP-based authentication for Signup and Password Reset  
+- Secure 6-digit OTP generation with expiry  
+- Limited OTP attempts for enhanced security  
+- Readability Analysis Dashboard  
+- Flesch Reading Ease  
+- Flesch-Kincaid Grade  
+- SMOG Index  
+- Gunning Fog Index  
+- Coleman-Liau Index  
+- Word, sentence, syllable, and character count  
+- Interactive gauge visualizations using Plotly  
+- Password strength validation  
+- Login rate limiting  
+- Modern dark-themed UI  
+- Fully tested and validated features  
+
+---
+
+## 🛠 Technologies Used  
+
+- Python  
+- Streamlit  
+- SQLite  
+- JWT (JSON Web Token)  
+- Bcrypt  
+- Plotly  
+- PyPDF2  
+- Textstat  
+- SMTP (Email Integration for OTP)  
+
+---
+
+## 📂 Repository Structure  
