@@ -68,27 +68,31 @@ The application also calculates:
 ## 📸 Application Screenshots
 
 ### 🔑 Login Page
-
+<img width="797" height="520" alt="image" src="https://github.com/user-attachments/assets/91978307-de71-443b-ba13-d538632296c2" />
 
 ---
 
 ### 📩 Signup with OTP Verification
-![Signup OTP](screenshots/signup_otp.png)
+<img width="787" height="641" alt="image" src="https://github.com/user-attachments/assets/036b88f6-f8b5-4992-9c1e-2cd3767a3753" />
+
 
 ---
 
 ### 🔄 Password Reset with OTP
-![Reset Password](screenshots/reset_password.png)
+<img width="858" height="841" alt="image" src="https://github.com/user-attachments/assets/f29061c6-8d75-4c1b-8958-e2927a534492" />
 
 ---
 
 ### 📊 Readability Analysis Dashboard
-![Readability Dashboard](screenshots/readability_dashboard.png)
+
+<img width="1919" height="813" alt="image" src="https://github.com/user-attachments/assets/3e7df0fd-512c-48a4-9324-eb8c29305968" />
+<img width="1645" height="877" alt="image" src="https://github.com/user-attachments/assets/65517ada-1534-4c45-85c7-1e435136c00f" />
 
 ---
 
-### 📈 Readability Metrics Visualization
-![Readability Metrics](screenshots/readability_metrics.png)
+### 📈  Admin Dashboard
+<img width="1919" height="811" alt="image" src="https://github.com/user-attachments/assets/0ba3c850-fecc-466d-ba58-e1b5c2e6e701" />
+
 
 ---
 
@@ -97,8 +101,3 @@ The application also calculates:
 This milestone successfully enhanced the system with advanced authentication mechanisms and analytical capabilities.  
 The platform now provides a secure environment for users while also enabling detailed readability evaluation of policy documents.
 
-These improvements contribute toward building a more intelligent **AI-powered policy navigation system**.
-
----
-
----
