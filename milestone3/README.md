@@ -1,34 +1,44 @@
-# AI Policy Navigation System – Milestone 3
-
-## Project Title
-PolicyNav – AI Powered Policy Navigation Platform
+# PolicyNav – AI Powered Policy Navigation Platform
+## Milestone 3 – AI Policy Navigation System
 
 ---
 
-## Overview
+## 👥 Team Members
 
-Milestone 3 focuses on enhancing the Policy Navigation System with advanced AI features that make government policy documents easier to understand and interact with.
+This milestone was completed collaboratively by **Team 2**.
 
-The system integrates Natural Language Processing (NLP), Retrieval Augmented Generation (RAG), and Knowledge Graph techniques to allow users to explore policy information in an intelligent and user-friendly way.
+- **Srideepalakshmi Muruganantham**
+- **Shambhavi Jha**
+- **Mainuddeen**
+- **Bhuvaneshwar Reddy Mandadapu**
+- **Mansi Chaturvedi**
+- **Raam Prakash S**
 
-The platform allows users to:
-
-- Ask questions about policies using AI
-- Generate summaries of policy documents
-- Translate policy content into multiple languages
-- Visualize entity relationships through knowledge graphs
-- Analyze document readability
-- Perform web searches for additional information
-
-The goal is to make complex government policies easier to understand and accessible to users across different linguistic backgrounds.
+All team members contributed to development, testing, debugging, and system integration.
 
 ---
 
-## Supported Languages
+## 📌 Project Overview
+
+PolicyNav is an **AI-powered platform designed to simplify government policy documents**.
+
+Milestone 3 enhances the system with **Artificial Intelligence and Natural Language Processing** capabilities that allow users to interact with policies more effectively.
+
+The system integrates:
+
+- Natural Language Processing (NLP)
+- Retrieval Augmented Generation (RAG)
+- Knowledge Graph Visualization
+- Multi-language Processing
+- Readability Analytics
+
+These technologies help transform complex policy documents into **accessible and understandable information**.
+
+---
+
+## 🌍 Supported Languages
 
 The platform supports multiple Indian languages to improve accessibility.
-
-Languages implemented:
 
 - English
 - Hindi
@@ -38,101 +48,103 @@ Languages implemented:
 - Marathi
 - Bengali
 
-Users can ask questions, generate summaries, and translate policy content in these languages.
+Users can ask questions, summarize documents, and translate policy content in these languages.
 
 ---
 
-## Core Features Implemented in Milestone 3
+## ⚙️ Core Features
 
-### AI Policy Assistant (Multi-Language Q&A)
+### 1. AI Policy Assistant (Multi-Language Q&A)
 
-The AI Policy Assistant allows users to ask questions about policy documents.
+Allows users to ask questions about policy documents.
 
-Implementation:
+**Implementation**
 
-- Uses Retrieval Augmented Generation (RAG)
-- Policy documents are converted into vector embeddings
-- FAISS is used for semantic search
-- Relevant information is retrieved and used to generate answers
+- Retrieval Augmented Generation (RAG)
+- Policy documents converted into vector embeddings
+- FAISS used for semantic search
+- AI retrieves relevant context to generate answers
 
 ---
 
-### AI Policy Summarizer
+### 2. AI Policy Summarizer
 
-This module generates short summaries of long policy documents.
+Generates concise summaries from long policy documents.
 
-Features:
+**Features**
 
-- Extracts key information from policy text
-- Produces concise summaries
+- Extracts key information
+- Produces readable summaries
 - Supports multiple languages
 
 ---
 
-### Entity Knowledge Graph
+### 3. Knowledge Graph Visualization
 
-The system generates a knowledge graph from policy documents.
+Creates a knowledge graph from policy documents.
 
-Implementation:
+**Implementation**
 
 - Entity extraction using NLP
-- Relationship mapping between entities
+- Relationship mapping
 - Graph generation using NetworkX
 - Visualization using PyVis
 
-This allows users to visually understand connections between policy concepts.
+This helps users understand connections between policy concepts.
 
 ---
 
-### Global Web Search
+### 4. Global Web Search
 
-This feature allows users to search the web for additional information related to policies.
+Allows users to search the web for additional information related to policies.
 
-Features:
+**Features**
 
 - Retrieves relevant web results
+- Wikipedia-based search
 - Displays summarized information
-- Helps users gather external context
 
 ---
 
-### Language Translator
+### 5. Language Translator
 
-Users can translate policy content into supported languages.
+Translates policy content into supported languages.
 
-Features:
+**Features**
 
 - Multi-language translation
+- Improves accessibility
 - Helps users understand policies in their native language
 
 ---
 
-### Readability Analyzer
+### 6. Readability Analyzer
 
-The readability analyzer evaluates the complexity of policy documents.
+Evaluates the complexity of policy documents.
 
-Metrics include:
+**Metrics**
 
 - Sentence complexity
 - Word difficulty
 - Overall readability score
 
-Results are visualized through interactive dashboards.
+Results are displayed using interactive dashboards.
 
 ---
 
-## User Portal Features
+## 👤 User Portal Features
 
 ### User Dashboard
+
 Displays:
 
 - Latest policy updates
 - Recently added policies
-- User information
+- User profile information
 
 ---
 
-### My Activity History
+### Activity History
 
 Tracks user interactions such as:
 
@@ -145,7 +157,7 @@ Tracks user interactions such as:
 
 ### Feedback System
 
-Users can submit feedback about the platform including:
+Users can provide feedback including:
 
 - Experience rating
 - Suggestions
@@ -153,55 +165,56 @@ Users can submit feedback about the platform including:
 
 ---
 
-## Security Features
+## 🔐 Security Features
 
-The system includes security features such as:
-
-- OTP based authentication
+- OTP-based authentication
 - Secure login
 - Session management using JWT
 
+These ensure secure access to the platform.
+
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
-Frontend:
+### Frontend
 - Streamlit
 
-Backend:
+### Backend
 - Python
 
-AI / NLP:
+### AI / NLP
 - Sentence Transformers
 - SpaCy
 
-Vector Search:
+### Vector Search
 - FAISS
 
-Visualization:
+### Graph Processing
+- NetworkX
+
+### Visualization
 - PyVis
 - Plotly
 
-Graph Processing:
-- NetworkX
-
-Document Processing:
+### Document Processing
 - PyPDF
 
-Authentication:
+### Authentication
 - OTP
 - JWT
 
-Database:
+### Database
 - SQLite
 
 ---
 
-## System Workflow
+## 🔄 System Workflow
 
-1. User logs in using OTP authentication  
-2. Policy documents are processed and converted into embeddings  
-3. Users interact with the system through various modules:
+1. User logs in using OTP authentication
+2. Policy documents are processed and converted into vector embeddings
+3. Embeddings are stored using FAISS
+4. Users interact with the following modules:
 
 - AI Policy Assistant
 - Policy Summarizer
@@ -210,46 +223,92 @@ Database:
 - Web Search
 - Readability Analyzer
 
----
-
-## Application Screenshots
-
-User Dashboard  
-![Dashboard](screenshots/dashboard.png)
-
-AI Policy Assistant  
-![Assistant](screenshots/assistant.png)
-
-AI Policy Summarizer  
-![Summarizer](screenshots/summarizer.png)
-
-Knowledge Graph  
-![Graph](screenshots/graph.png)
-
-Language Translator  
-![Translator](screenshots/translator.png)
-
-Global Web Search  
-![Web Search](screenshots/websearch.png)
-
-Feedback System  
-![Feedback](screenshots/feedback.png)
-
-Activity History  
-![History](screenshots/history.png)
+5. The system retrieves relevant information and generates AI-powered responses.
 
 ---
 
-## Milestone 3 Outcome
+## 👨‍💻 Team Contributions
+
+### RAG Search & Multilingual Processing
+Developed by:
+- Shambhavi Jha
+- Bhuvaneshwar Reddy Mandadapu
+
+Responsibilities:
+- Multilingual query processing
+- Translation integration
+- Semantic search
+
+---
+
+### Summarization & Web Search
+Developed by:
+- Mainuddeen
+- Srideepalakshmi Muruganantham
+
+Responsibilities:
+- Automatic summarization
+- Web search integration using Wikipedia
+
+---
+
+### Knowledge Graph & Global History
+Developed by:
+- Mansi Chaturvedi
+- Raam Prakash S
+
+Responsibilities:
+- Entity extraction
+- Relationship mapping
+- Knowledge graph visualization
+- Global history tracking
+
+---
+
+### System Integration & Testing
+
+All team members contributed to:
+
+- Testing
+- Debugging
+- System integration
+- UI improvements
+
+---
+
+## 📷 Application Screenshots
+
+
+  <img width="1021" height="450" alt="image" src="https://github.com/user-attachments/assets/d493870a-9d23-4cc6-9e12-6f9bfe5e81e2" />
+
+  <img width="1019" height="458" alt="image" src="https://github.com/user-attachments/assets/93f921d7-5308-4e62-a536-134ba9141929" />
+
+  <img width="1016" height="452" alt="image" src="https://github.com/user-attachments/assets/530ce9b6-aadd-4d54-ac65-378b62a00436" />
+
+  <img width="1022" height="447" alt="image" src="https://github.com/user-attachments/assets/af765f8e-b7ef-44af-a2f5-41348c7fd552" />
+
+  <img width="1023" height="452" alt="image" src="https://github.com/user-attachments/assets/8ee74d1f-de06-4f37-b3a4-a26ffdc357c0" />
+
+  <img width="1014" height="456" alt="image" src="https://github.com/user-attachments/assets/d74082d9-1901-449e-b118-63cc326c0604" />
+
+  <img width="1020" height="442" alt="image" src="https://github.com/user-attachments/assets/4bba09f4-257c-4fa8-91a3-73fd4f8dbd8d" />
+
+  <img width="1018" height="464" alt="image" src="https://github.com/user-attachments/assets/6c29155e-3a21-4f78-87c4-a26e2b41f305" />
+
+  <img width="1014" height="453" alt="image" src="https://github.com/user-attachments/assets/e515ebc0-8e36-46bc-9e93-fd19df9ca71a" />
+
+---
+
+## 🎯 Milestone 3 Outcome
 
 Milestone 3 successfully integrates advanced AI capabilities into the Policy Navigation System.
 
-The system now allows users to:
+The platform now enables users to:
 
 - Interact with policies using natural language
-- Understand complex policy documents through AI summaries
+- Understand complex documents through AI summaries
 - Access policy information in multiple languages
-- Visualize relationships using knowledge graphs
-- Analyze readability of policy documents
+- Visualize policy relationships using knowledge graphs
+- Analyze policy readability
 
-These improvements make policy information more accessible, understandable, and interactive for users.
+These improvements make government policies **more accessible, understandable, and interactive** for users.
