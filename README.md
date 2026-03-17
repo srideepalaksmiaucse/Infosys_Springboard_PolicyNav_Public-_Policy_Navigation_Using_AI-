@@ -1,168 +1,336 @@
-# 💠 PolicyNav
+<div align="center">
+
+# PolicyNav
 ### AI-Powered Policy Navigation Platform
 
-<div align="center">
+Transforming complex government policy documents into clear, searchable insights using Artificial Intelligence.
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
-![AI](https://img.shields.io/badge/Artificial_Intelligence-NLP-purple?style=for-the-badge)
-![Vector Search](https://img.shields.io/badge/Vector_Search-FAISS-orange?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red?style=for-the-badge&logo=streamlit)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
-### Transforming Complex Government Policies into Clear, Searchable Insights
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
+![AI](https://img.shields.io/badge/AI-NLP-green)
+![Vector Search](https://img.shields.io/badge/Vector%20Database-FAISS-orange)
+![License](https://img.shields.io/badge/License-MIT-purple)
 
 </div>
 
 ---
 
-# 🌟 Project Overview
+# Overview
 
-**PolicyNav** is an AI-powered platform designed to simplify complex government policy documents using **Natural Language Processing (NLP)** and **Retrieval Augmented Generation (RAG)**.
+PolicyNav is an AI-powered platform designed to simplify complex government policy documents using Natural Language Processing (NLP), Retrieval Augmented Generation (RAG), and intelligent analytics dashboards.
 
-The platform allows users to interact with policies intelligently through:
+Government policies are often long and difficult to understand. PolicyNav transforms these documents into accessible information through AI-powered tools such as summarization, question answering, readability analysis, and multilingual translation.
 
-- AI-powered question answering  
-- Policy summarization  
-- Readability analysis  
-- Multi-language translation  
-- Knowledge graph visualization  
-- Administrative analytics dashboards  
-
-📌 Developed as part of the **Infosys Springboard Internship Program**
+This project was developed as part of the **Infosys Springboard Internship Program**.
 
 ---
 
-# 🎬 Demo Preview
+# Table of Contents
 
-<div align="center">
-
-<img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="650">
-
-</div>
-
-This demo illustrates the system workflow:
-
-1️⃣ User authentication  
-2️⃣ Policy document upload  
-3️⃣ AI processing and embeddings  
-4️⃣ Question answering  
-5️⃣ Analytics and visualization  
-
----
-
-# 📚 Table of Contents
-
-- Project Motivation  
+- Overview  
+- Problem Statement  
 - Key Features  
 - System Architecture  
-- AI Processing Pipeline  
-- Security Architecture  
 - Technology Stack  
 - Repository Structure  
-- Installation Guide  
-- Usage Guide  
-- Data Processing Workflow  
+- Milestones  
+- Installation  
+- Usage  
 - Screenshots  
-- Future Roadmap  
+- Future Improvements  
 - Team  
 - License  
 
 ---
 
-# 🎯 Problem Statement
+# Problem Statement
 
-Government policy documents are often:
+Government policy documents often contain complex language and extensive legal terminology that makes them difficult for the general public to understand.
 
-- Long and complex
-- Written in legal language
-- Difficult for citizens to interpret
+Common challenges include:
 
-Manual policy interpretation requires **significant time and expertise**.
+- Long and complex documents
+- Difficult legal terminology
+- Lack of simplified explanations
+- Limited accessibility for non-technical users
 
-### Our Solution
-
-PolicyNav uses **AI and NLP technologies** to:
-
-✔ simplify policy documents  
-✔ generate summaries  
-✔ answer policy questions  
-✔ support multilingual accessibility  
-✔ visualize policy relationships  
-
-This enables **better transparency and accessibility of policy information**.
+PolicyNav addresses these issues using Artificial Intelligence to automatically analyze and interpret policy documents.
 
 ---
 
-# 🚀 Key Features
+# Key Features
 
-## 👤 User Features
+## User Features
 
 | Feature | Description |
 |------|-------------|
-| 🔐 Secure Authentication | JWT login with OTP verification |
-| 📄 Policy Upload | Upload policy documents |
-| 🤖 AI Policy Assistant | Ask questions in natural language |
-| ✂️ Policy Summarization | Extract key insights |
-| 🌍 Language Translation | Multi-language policy support |
-| 📊 Readability Analyzer | Evaluate policy complexity |
-| 🧠 Knowledge Graph | Visualize relationships |
-| ⭐ Feedback System | User rating and suggestions |
-| 🕘 Activity History | Track user interactions |
+| Secure Authentication | User registration and login with OTP verification |
+| Policy Upload | Upload and process policy documents |
+| AI Policy Assistant | Ask questions about policies using natural language |
+| Policy Summarization | Generate concise summaries |
+| Language Translation | Translate policies into multiple languages |
+| Readability Analysis | Evaluate document complexity |
+| Knowledge Graph | Visualize relationships between policy concepts |
+| Feedback System | Users can submit feedback |
+| Activity History | Track user interactions |
 
 ---
 
-## 🛡 Admin Features
+## Admin Features
 
 | Feature | Description |
 |------|-------------|
-| 👥 User Management | Promote, remove or lock users |
-| 📊 Analytics Dashboard | Platform usage monitoring |
-| 💬 Feedback Analysis | WordCloud visualization |
-| 📜 Activity Logs | System monitoring |
-| 📥 Data Export | Export reports |
+| User Management | Promote, remove, or lock user accounts |
+| Analytics Dashboard | Monitor platform usage |
+| Feedback Monitoring | Analyze user feedback |
+| Activity Logs | Track system activities |
+| Data Export | Export reports and logs |
 
 ---
 
-# 🧩 System Architecture
+# System Architecture
 
-```mermaid
-graph TD
+The platform consists of the following components:
 
-User[User Interface - Streamlit]
+1. User Interface (Streamlit)
+2. Authentication System
+3. Document Processing Module
+4. AI Processing Engine
+5. Vector Database
+6. Knowledge Graph Module
+7. Analytics Dashboard
 
-Auth[Authentication Layer]
-OTP[OTP Verification]
-JWT[JWT Token Manager]
+System workflow:
 
-Doc[Document Upload]
-Process[Text Processing]
+User → Authentication → Document Upload → Text Processing → Embedding Generation → Vector Database → AI Retrieval → Response Generation → Visualization
 
-Embed[Sentence Transformers]
-VectorDB[FAISS Vector Database]
+---
 
-RAG[RAG AI Engine]
-Answer[AI Generated Response]
+# Technology Stack
 
-Graph[Knowledge Graph Generator]
-Analytics[Analytics Dashboard]
+## Frontend
+- Streamlit
 
-User --> Auth
-Auth --> OTP
-Auth --> JWT
+## Backend
+- Python
 
-JWT --> Doc
-Doc --> Process
-Process --> Embed
+## Artificial Intelligence / NLP
+- Sentence Transformers
+- SpaCy
 
-Embed --> VectorDB
-VectorDB --> RAG
+## Vector Database
+- FAISS
 
-RAG --> Answer
+## Visualization
+- Plotly
+- PyVis
 
-Process --> Graph
-Answer --> Analytics
-Graph --> Analytics
+## Database
+- SQLite
+
+## Security
+- JWT Authentication
+- OTP Verification
+
+---
+
+# Repository Structure
+PolicyNav
+│
+├── milestone1
+│ ├── README.md
+│ └── springboard_Login_Page.ipynb
+│
+├── milestone2
+│ ├── ReadMe.md
+│ ├── app.ipynb
+│ └── otp_authentication.ipynb
+│
+├── milestone3
+│ ├── Final_Milestone3.ipynb
+│ └── README.md
+│
+├── milestone4
+│ ├── Milestone4.ipynb
+│ └── README.md
+│
+├── LICENSE
+└── README.md
+
+
+
+Each milestone folder represents a stage in the development of the project.
+
+---
+
+# Milestones
+
+## Milestone 1 – User Authentication System
+
+Implemented a secure authentication system with:
+
+- User signup
+- Secure login
+- Password recovery
+- Session handling using JWT
+- Dashboard access
+
+Technologies used:
+
+- Python
+- Streamlit
+- JWT
+- SQLite
+
+---
+
+## Milestone 2 – Security and Readability Dashboard
+
+Enhancements introduced:
+
+- OTP-based authentication
+- Password strength validation
+- Login rate limiting
+- Readability analysis dashboard
+
+Readability metrics used:
+
+- Flesch Reading Ease
+- Flesch-Kincaid Grade Level
+- SMOG Index
+- Gunning Fog Index
+- Coleman-Liau Index
+
+---
+
+## Milestone 3 – AI Policy Navigation System
+
+Added advanced AI capabilities including:
+
+- AI Policy Assistant using RAG
+- Policy summarization
+- Knowledge graph visualization
+- Web search integration
+- Language translation
+- Readability analysis
+
+Technologies used:
+
+- Sentence Transformers
+- FAISS
+- SpaCy
+- NetworkX
+- PyVis
+
+---
+
+## Milestone 4 – Admin Analytics and User Dashboard
+
+Final milestone introduced:
+
+- Admin dashboard
+- User profile management
+- Activity monitoring
+- Data visualization
+- Feedback analysis
+- Data export functionality
+
+---
+
+# Installation
+
+## Prerequisites
+
+- Python 3.9 or higher
+- Git
+
+---
+
+## Clone the Repository
+git clone <repository-url>
+cd PolicyNav
+
+
+---
+
+## Install Dependencies
+pip install streamlit
+pip install sentence-transformers
+pip install faiss-cpu
+pip install plotly
+pip install textstat
+
+
+---
+
+## Run the Application
+
+
+streamlit run app.py
+
+
+The application will be available at:
+http://localhost:8501
+
+---
+
+# Usage
+
+1. Register or log in.
+2. Upload a policy document.
+3. Use AI tools to analyze the document.
+4. Ask questions related to the policy.
+5. Generate summaries.
+6. Translate policy content.
+7. Explore readability analysis and visualizations.
+
+Admin users can monitor system activity through the admin dashboard.
+
+---
+
+# Screenshots
+
+Example screenshots to include:
+
+- Login Page
+- Signup Page
+- OTP Authentication
+- User Dashboard
+- AI Policy Assistant
+- Readability Analysis Dashboard
+- Knowledge Graph Visualization
+- Admin Analytics Dashboard
+
+---
+
+# Future Improvements
+
+Possible future enhancements include:
+
+- Voice-based interaction with policies
+- Mobile application support
+- Policy recommendation system
+- Real-time government policy updates
+- Integration with external policy databases
+
+---
+
+# Team
+
+| Name | Role |
+|-----|------|
+| M Srideepalakshmi Muruganantham | AI Developer |
+| Shambhavi Jha | Backend Developer |
+| Mainuddeen | AI Engineer |
+| Bhuvaneshwar Reddy Mandadapu | Backend Developer |
+| Mansi Chaturvedi | Data Processing |
+| Raam Prakash S | System Integration |
+| Arjun L Nair | Platform Development |
+
+---
 
 # License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
+
+---
