@@ -1,7 +1,6 @@
 <div align="center">
 
-# PolicyNav
-### AI-Powered Policy Navigation Platform
+# PolicyNav – AI Powered Policy Navigation Platform
 
 Transforming complex government policy documents into clear, searchable insights using Artificial Intelligence.
 
@@ -17,9 +16,9 @@ Transforming complex government policy documents into clear, searchable insights
 
 # Overview
 
-PolicyNav is an AI-powered platform designed to simplify complex government policy documents using Natural Language Processing (NLP), Retrieval Augmented Generation (RAG), and intelligent analytics dashboards.
+PolicyNav is an AI-powered platform designed to simplify complex government policy documents using modern Artificial Intelligence techniques. The platform integrates Natural Language Processing (NLP), Retrieval Augmented Generation (RAG), vector search, and interactive dashboards to make policy documents easier to understand and explore.
 
-Government policies are often long and difficult to understand. PolicyNav transforms these documents into accessible information through AI-powered tools such as summarization, question answering, readability analysis, and multilingual translation.
+Government policies are often lengthy and written in technical legal language. PolicyNav transforms these documents into accessible information through intelligent tools such as policy summarization, question answering, readability analysis, and multilingual translation.
 
 This project was developed as part of the **Infosys Springboard Internship Program**.
 
@@ -29,13 +28,14 @@ This project was developed as part of the **Infosys Springboard Internship Progr
 
 - Overview  
 - Problem Statement  
+- Objectives  
 - Key Features  
 - System Architecture  
 - Technology Stack  
 - Repository Structure  
-- Milestones  
-- Installation  
-- Usage  
+- Milestone Breakdown  
+- Installation Guide  
+- Usage Guide  
 - Screenshots  
 - Future Improvements  
 - Team  
@@ -49,12 +49,26 @@ Government policy documents often contain complex language and extensive legal t
 
 Common challenges include:
 
-- Long and complex documents
-- Difficult legal terminology
-- Lack of simplified explanations
-- Limited accessibility for non-technical users
+- Large document size
+- Complex legal language
+- Lack of summarized insights
+- Limited multilingual accessibility
 
-PolicyNav addresses these issues using Artificial Intelligence to automatically analyze and interpret policy documents.
+PolicyNav addresses these challenges by applying AI technologies to analyze, summarize, and explain policy documents in an interactive and user-friendly manner.
+
+---
+
+# Objectives
+
+The primary objectives of this project include:
+
+- Simplifying complex policy documents using AI
+- Enabling natural language interaction with policy information
+- Generating concise summaries of lengthy documents
+- Providing multilingual access to policy content
+- Evaluating the readability and complexity of documents
+- Visualizing relationships between policy concepts
+- Providing analytics dashboards for administrators
 
 ---
 
@@ -65,14 +79,14 @@ PolicyNav addresses these issues using Artificial Intelligence to automatically 
 | Feature | Description |
 |------|-------------|
 | Secure Authentication | User registration and login with OTP verification |
-| Policy Upload | Upload and process policy documents |
-| AI Policy Assistant | Ask questions about policies using natural language |
-| Policy Summarization | Generate concise summaries |
-| Language Translation | Translate policies into multiple languages |
-| Readability Analysis | Evaluate document complexity |
-| Knowledge Graph | Visualize relationships between policy concepts |
-| Feedback System | Users can submit feedback |
-| Activity History | Track user interactions |
+| Policy Document Upload | Upload and process policy documents |
+| AI Policy Assistant | Ask questions about policy documents using natural language |
+| Policy Summarization | Generate concise summaries of long documents |
+| Multi-language Translation | Translate policy information into multiple languages |
+| Readability Analysis | Evaluate policy complexity using readability metrics |
+| Knowledge Graph Visualization | Display relationships between policy concepts |
+| Activity History | Track user interactions with the system |
+| Feedback System | Users can submit ratings and suggestions |
 
 ---
 
@@ -81,99 +95,117 @@ PolicyNav addresses these issues using Artificial Intelligence to automatically 
 | Feature | Description |
 |------|-------------|
 | User Management | Promote, remove, or lock user accounts |
-| Analytics Dashboard | Monitor platform usage |
+| Analytics Dashboard | Monitor platform usage and performance |
 | Feedback Monitoring | Analyze user feedback |
-| Activity Logs | Track system activities |
-| Data Export | Export reports and logs |
+| Activity Logs | Track system activity |
+| Data Export | Export reports and system data |
 
 ---
 
 # System Architecture
 
-The platform consists of the following components:
+The following diagram illustrates the overall architecture of the PolicyNav system.
 
-1. User Interface (Streamlit)
-2. Authentication System
-3. Document Processing Module
-4. AI Processing Engine
-5. Vector Database
-6. Knowledge Graph Module
-7. Analytics Dashboard
+![PolicyNav System Architecture](system_architecture.png)
 
-System workflow:
+### Architecture Explanation
 
-User → Authentication → Document Upload → Text Processing → Embedding Generation → Vector Database → AI Retrieval → Response Generation → Visualization
+The system architecture consists of multiple layers that process policy documents and generate intelligent insights.
+
+**Input Sources**
+
+Policy documents and web-based data sources are collected as input for analysis.
+
+**Document Ingestion and Preprocessing**
+
+This stage extracts text from uploaded documents and performs preprocessing such as cleaning and multilingual translation.
+
+**Data Storage**
+
+Processed documents and embeddings are stored in a vector database and knowledge base using SQLite.
+
+**Embedding Generation**
+
+Text embeddings are generated using transformer-based models such as FLAN-T5 and BART.
+
+**Knowledge Graph Layer**
+
+This layer extracts entities and relationships from policy documents to build a knowledge graph representation of policy information.
+
+**RAG Search Engine**
+
+The Retrieval Augmented Generation pipeline processes user queries and retrieves relevant content using vector search.
+
+**AI Processing and Generation**
+
+The AI engine generates responses such as policy summaries and answers to user queries.
+
+**User Interface**
+
+The platform interface is built using Streamlit and provides dashboards for users and administrators.
+
+**Security and Authentication**
+
+Security features include OTP authentication, JWT token management, and password hashing.
 
 ---
 
 # Technology Stack
 
 ## Frontend
-- Streamlit
+
+Streamlit
 
 ## Backend
-- Python
+
+Python
 
 ## Artificial Intelligence / NLP
+
+- Hugging Face Transformers
 - Sentence Transformers
 - SpaCy
 
-## Vector Database
-- FAISS
+## Vector Search
+
+FAISS
 
 ## Visualization
+
 - Plotly
 - PyVis
 
 ## Database
-- SQLite
+
+SQLite
 
 ## Security
+
 - JWT Authentication
 - OTP Verification
+- Bcrypt Password Hashing
 
 ---
 
 # Repository Structure
-PolicyNav
-│
-├── milestone1
-│ ├── README.md
-│ └── springboard_Login_Page.ipynb
-│
-├── milestone2
-│ ├── ReadMe.md
-│ ├── app.ipynb
-│ └── otp_authentication.ipynb
-│
-├── milestone3
-│ ├── Final_Milestone3.ipynb
-│ └── README.md
-│
-├── milestone4
-│ ├── Milestone4.ipynb
-│ └── README.md
-│
-├── LICENSE
-└── README.md
+<img width="392" height="590" alt="image" src="https://github.com/user-attachments/assets/6c4406c1-2525-44bf-af50-6ac8cbb4edf6" />
 
 
-
-Each milestone folder represents a stage in the development of the project.
+Each milestone folder represents a development stage of the project.
 
 ---
 
-# Milestones
+# Milestone Breakdown
 
 ## Milestone 1 – User Authentication System
 
-Implemented a secure authentication system with:
+Implemented a secure authentication system including:
 
-- User signup
+- User registration
 - Secure login
 - Password recovery
-- Session handling using JWT
-- Dashboard access
+- JWT session management
+- User dashboard access
 
 Technologies used:
 
@@ -186,14 +218,14 @@ Technologies used:
 
 ## Milestone 2 – Security and Readability Dashboard
 
-Enhancements introduced:
+Enhancements introduced in this milestone:
 
 - OTP-based authentication
 - Password strength validation
 - Login rate limiting
 - Readability analysis dashboard
 
-Readability metrics used:
+Readability metrics implemented:
 
 - Flesch Reading Ease
 - Flesch-Kincaid Grade Level
@@ -205,7 +237,7 @@ Readability metrics used:
 
 ## Milestone 3 – AI Policy Navigation System
 
-Added advanced AI capabilities including:
+Advanced AI capabilities introduced:
 
 - AI Policy Assistant using RAG
 - Policy summarization
@@ -226,7 +258,7 @@ Technologies used:
 
 ## Milestone 4 – Admin Analytics and User Dashboard
 
-Final milestone introduced:
+Final milestone features include:
 
 - Admin dashboard
 - User profile management
@@ -237,7 +269,7 @@ Final milestone introduced:
 
 ---
 
-# Installation
+# Installation Guide
 
 ## Prerequisites
 
@@ -247,6 +279,8 @@ Final milestone introduced:
 ---
 
 ## Clone the Repository
+
+
 git clone <repository-url>
 cd PolicyNav
 
@@ -254,6 +288,8 @@ cd PolicyNav
 ---
 
 ## Install Dependencies
+
+
 pip install streamlit
 pip install sentence-transformers
 pip install faiss-cpu
@@ -264,33 +300,31 @@ pip install textstat
 ---
 
 ## Run the Application
-
-
 streamlit run app.py
 
 
-The application will be available at:
+The application will run at:
 http://localhost:8501
+
 
 ---
 
-# Usage
+# Usage Guide
 
-1. Register or log in.
+1. Register or log in to the platform.
 2. Upload a policy document.
 3. Use AI tools to analyze the document.
-4. Ask questions related to the policy.
-5. Generate summaries.
-6. Translate policy content.
-7. Explore readability analysis and visualizations.
+4. Ask questions related to policy content.
+5. Generate summaries or translations.
+6. View readability analysis and visualizations.
 
-Admin users can monitor system activity through the admin dashboard.
+Administrators can monitor system activity using the admin dashboard.
 
 ---
 
 # Screenshots
 
-Example screenshots to include:
+Recommended screenshots to include:
 
 - Login Page
 - Signup Page
@@ -307,7 +341,7 @@ Example screenshots to include:
 
 Possible future enhancements include:
 
-- Voice-based interaction with policies
+- Voice-based interaction with policy documents
 - Mobile application support
 - Policy recommendation system
 - Real-time government policy updates
@@ -333,4 +367,7 @@ Possible future enhancements include:
 
 This project is licensed under the MIT License.
 
+You are free to use, modify, and distribute this project with proper attribution.
+
 ---
+
