@@ -22,7 +22,7 @@ Transforming complex government policy documents into clear, searchable insights
 | Demo Video     | https://drive.google.com/file/d/1iWPSKYKJvN9n7cfZkcAdOkUDFPQ0DH1q/view?usp=sharing |
 | Source Code    | This Repository                        |
 | Docker Support | Yes                                    |
-| AI Models      | Sentence Transformers · FLAN-T5 · NLLB |
+| AI Models      | Sentence Transformers  ·  FLAN-T5  ·  NLLB |
 
 
 ---
