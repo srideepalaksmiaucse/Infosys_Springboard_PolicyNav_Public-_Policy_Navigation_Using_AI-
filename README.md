@@ -25,6 +25,8 @@ Transforming complex government policy documents into clear, searchable insights
 | AI Models      | Sentence Transformers · FLAN-T5 · NLLB |
 
 
+---
+
 # 📌 Table of Contents
 - About the Project
 - Problem Statement & Motivation
