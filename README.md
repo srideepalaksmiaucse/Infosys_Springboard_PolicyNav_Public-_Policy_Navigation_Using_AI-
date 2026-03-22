@@ -157,7 +157,11 @@ Key issues include:
 ---
 ## Architecture
 Monolithic architecture with integrated AI modules and database.
+
+
 User → Streamlit UI → Backend (Python) → AI Models → Database
+
+
 <img width="806" height="535" alt="image" src="https://github.com/user-attachments/assets/1feb6b00-31e3-4949-8243-7df38bb91bb3" />
 
 ---
