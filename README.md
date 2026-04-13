@@ -162,7 +162,8 @@ Monolithic architecture with integrated AI modules and database.
 User → Streamlit UI → Backend (Python) → AI Models → Database
 
 
-<img width="806" height="535" alt="image" src="https://github.com/user-attachments/assets/1feb6b00-31e3-4949-8243-7df38bb91bb3" />
+<img width="767" height="511" alt="image" src="https://github.com/user-attachments/assets/fd281cf7-84cf-41e6-a9e6-a23e7fc48e2d" />
+
 
 ---
 ## 💡 Motivation
